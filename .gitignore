@@ -6,12 +6,8 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 .idea/*
-/target/
-/*/target/*
-/*/*/target/*
-/*/*/*/target/*
+**/target
 *.iml
-
 
 # User-specific stuff
 .idea/**/workspace.xml
@@ -112,5 +108,9 @@ fabric.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# ignore special .java
+**/*DemoTest.java
+**/*Demo.java
 
 # End of https://www.gitignore.io/api/java,intellij
