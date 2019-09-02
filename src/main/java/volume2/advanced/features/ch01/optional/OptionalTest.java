@@ -1,4 +1,4 @@
-package volume2.advanced.features.ch01.streams;
+package volume2.advanced.features.ch01.optional;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
